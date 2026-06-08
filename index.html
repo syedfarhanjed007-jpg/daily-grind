@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Daily Grind — Artisan Coffee Since 2018</title>
+    <meta name="description" content="The Daily Grind is Portland's favorite artisan coffee shop, serving single-origin beans, freshly roasted espresso, and handcrafted beverages since 2018.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 12C8 12 8 8 16 8C24 8 24 12 24 12H26C27.6569 12 29 13.3431 29 15C29 16.6569 27.6569 18 26 18H24V20C24 22.2091 22.2091 24 20 24H12C9.79086 24 8 22.2091 8 20V12Z" fill="currentColor"/>
+                    <path d="M8 8V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M12 8V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M16 8V4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M20 8V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M24 8V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <rect x="6" y="26" width="20" height="2" rx="1" fill="currentColor"/>
+                </svg>
+                <span>The Daily Grind</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="order.html" class="btn btn-primary btn-nav">Order Online</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero animate-on-scroll">
+        <div class="hero-bg">
+            <img src="images/hero.jpg" alt="The Daily Grind coffee shop interior" loading="eager">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge">Artisan Coffee Since 2018</span>
+            <h1>Coffee <span class="italic">Done Right</span></h1>
+            <p class="hero-subtitle">Handcrafted beverages made from ethically sourced, single-origin beans — roasted fresh in Portland every morning. Experience the difference that passion and precision make.</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+                <a href="location.html" class="btn btn-white">Find Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section id="about-preview" class="section about-preview animate-on-scroll">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="images/about.jpg" alt="Barista crafting coffee at The Daily Grind" loading="lazy">
+                    <div class="about-badge">Since 2018</div>
+                </div>
+                <div class="about-content">
+                    <span class="section-label">Our Story</span>
+                    <h2 class="section-title">From Bean to Cup,<br>With <span class="italic">Care</span></h2>
+                    <p>What started as a small passion project in Portland's Pearl District has grown into a beloved community gathering spot. At The Daily Grind, we believe every cup tells a story — from the farmer who cultivated the beans to the barista who perfected your pour.</p>
+                    <p>We source directly from small farms across Ethiopia, Colombia, and Guatemala, ensuring fair wages and exceptional quality in every bag.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23" stroke="currentColor" stroke-width="2"/>
+                                <path d="M24 12V24L32 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <div>
+                                <h4>Single Origin</h4>
+                                <p>Beans sourced directly from premier farms around the world, each with unique flavor profiles.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23" stroke="currentColor" stroke-width="2"/>
+                                <path d="M18 30C18 30 18 26 24 22C30 18 30 14 30 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M18 30C18 30 22 28 24 24C26 20 26 16 26 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <div>
+                                <h4>Freshly Roasted</h4>
+                                <p>Roasted in small batches every morning to ensure peak freshness and bold, complex flavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Highlights Section -->
+    <section id="menu-highlights" class="section menu-highlights animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Serve</span>
+                <h2 class="section-title">Menu <span class="italic">Highlights</span></h2>
+                <p class="section-description">A curated selection of our most beloved drinks and bites, each crafted with precision and love.</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="images/espresso.jpg" alt="Perfectly pulled espresso shot" loading="lazy">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Espresso</h3>
+                        <p>Bold, rich, and perfectly extracted from our house blend — the foundation of everything we do.</p>
+                        <span class="price">$4.50</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="images/pourover.jpg" alt="Pour over coffee being brewed" loading="lazy">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Pour Over</h3>
+                        <p>Single-origin beans brewed with care through a V60, revealing delicate notes and a clean finish.</p>
+                        <span class="price">$5.50</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="images/pastries.jpg" alt="Fresh baked pastries" loading="lazy">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Pastries</h3>
+                        <p>Freshly baked each morning by our partner bakery — croissants, scones, muffins, and more.</p>
+                        <span class="price">from $3.50</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="images/seasonal.jpg" alt="Seasonal specialty drink" loading="lazy">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Seasonal Special</h3>
+                        <p>Our rotating specialty drink features locally sourced ingredients that celebrate the season.</p>
+                        <span class="price">$6.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section features animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Why Choose Us</span>
+                <h2 class="section-title">The Daily Grind <span class="italic">Difference</span></h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 4L29.5 14.5L42 16.5L33 25.5L35 38L24 32.5L13 38L15 25.5L6 16.5L18.5 14.5L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <circle cx="24" cy="22" r="5" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Single Origin</h3>
+                    <p>We partner directly with farms in Ethiopia, Colombia, and Guatemala to bring you the world's finest beans — traceable from seed to cup.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 38H34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M16 38V28C16 23.5817 19.5817 20 24 20C28.4183 20 32 23.5817 32 28V38" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 16C20 16 20 12 24 10C28 12 28 16 28 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M22 12V8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M26 12V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M24 10V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <rect x="10" y="38" width="28" height="3" rx="1.5" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Freshly Roasted</h3>
+                    <p>Every batch is roasted on-site in our vintage Probat roaster, ensuring your coffee is never more than 48 hours from roast to cup.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="24" cy="20" r="8" stroke="currentColor" stroke-width="2"/>
+                            <path d="M24 16V20L27 23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10 34C10 34 12 28 17 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M38 34C38 34 36 28 31 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M14 40C14 37.7909 17.5817 36 24 36C30.4183 36 34 37.7909 34 40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M6 44H42" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Local Partners</h3>
+                    <p>We proudly collaborate with Portland's finest bakeries, creameries, and artisans to bring you locally sourced pastries and ingredients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview Section -->
+    <section id="gallery-preview" class="section gallery-preview animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Space</span>
+                <h2 class="section-title">Step <span class="italic">Inside</span></h2>
+                <p class="section-description">A warm, inviting space where great coffee meets great company.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-lightbox="images/gallery1.jpg">
+                    <img src="images/gallery1.jpg" alt="Coffee shop interior" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="16" cy="16" r="7" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 9V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M16 28V23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M9 16H4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M28 16H23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item" data-lightbox="images/gallery2.jpg">
+                    <img src="images/gallery2.jpg" alt="Latte art being poured" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="16" cy="16" r="7" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 9V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M16 28V23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M9 16H4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M28 16H23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item" data-lightbox="images/gallery3.jpg">
+                    <img src="images/gallery3.jpg" alt="Coffee beans roasting" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="16" cy="16" r="7" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 9V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M16 28V23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M9 16H4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M28 16H23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item" data-lightbox="images/gallery4.jpg">
+                    <img src="images/gallery4.jpg" alt="Cozy seating area" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="16" cy="16" r="7" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 9V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M16 28V23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M9 16H4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M28 16H23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="gallery.html" class="btn btn-primary">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section location-section animate-on-scroll">
+        <div class="container">
+            <div class="location-grid">
+                <div class="location-info">
+                    <span class="section-label">Find Us</span>
+                    <h2 class="section-title">Visit <span class="italic">The Daily Grind</span></h2>
+                    <div class="location-details">
+                        <div class="location-detail">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2Z" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="9" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <div>
+                                <h4>Address</h4>
+                                <p>142 Roast Street<br>Portland, OR 97201</p>
+                            </div>
+                        </div>
+                        <div class="location-detail">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <div>
+                                <h4>Hours</h4>
+                                <p>Mon — Fri: 6:00 AM — 7:00 PM<br>Saturday: 7:00 AM — 8:00 PM<br>Sunday: 8:00 AM — 5:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="location-detail">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.92V19.92C22 20.4839 21.7893 21.0251 21.4142 21.4251C21.0391 21.8251 20.5304 22.05 20 22.05C16.5 22.05 13.18 20.82 10.49 18.75C7.97 16.81 5.92 14.3 4.59 11.4C3.39 8.78 3.39 5.89 3.39 5.89C3.39 5.32 3.59 4.78 3.96 4.38C4.33 3.98 4.84 3.75 5.37 3.75H8.37C9.34 3.75 10.17 4.49 10.28 5.45C10.38 6.28 10.59 7.09 10.91 7.85L9.25 9.5C10.5 12.1 12.6 14.2 15.2 15.45L16.85 13.79C17.61 14.11 18.42 14.32 19.25 14.42C20.21 14.53 20.95 15.36 20.95 16.33L22 16.92Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <div>
+                                <h4>Contact</h4>
+                                <p>(503) 555-BREW<br>hello@thedailygrind.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="location.html" class="btn btn-primary">Get Directions</a>
+                </div>
+                <div class="location-image">
+                    <img src="images/location.jpg" alt="The Daily Grind storefront" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="section cta-section animate-on-scroll">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Your Next Cup <span class="italic">Awaits</span></h2>
+                <p>Order ahead and skip the line. Your perfectly crafted coffee will be ready when you walk through the door.</p>
+                <a href="order.html" class="btn btn-white">Order Online Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 12C8 12 8 8 16 8C24 8 24 12 24 12H26C27.6569 12 29 13.3431 29 15C29 16.6569 27.6569 18 26 18H24V20C24 22.2091 22.2091 24 20 24H12C9.79086 24 8 22.2091 8 20V12Z" fill="currentColor"/>
+                            <path d="M8 8V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M12 8V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M16 8V4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M20 8V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M24 8V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <rect x="6" y="26" width="20" height="2" rx="1" fill="currentColor"/>
+                        </svg>
+                        <span>The Daily Grind</span>
+                    </a>
+                    <p>Artisan coffee crafted with passion in the heart of Portland. Every cup is a story worth savoring.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="16" height="16" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                                <circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="1.5"/>
+                                <circle cx="15" cy="5" r="1" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.0796 5.05 17.4467 9 17.9291V12.5H7V10H9V8C9 6.34315 10.3431 5 12 5H13.5V7.5H12.5C11.9477 7.5 11.5 7.94772 11.5 8.5V10H13.5L13 12.5H11.5V18C16.0633 17.5426 18 14.0796 18 10Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.9442 5.00138C17.2821 5.29429 16.5742 5.49485 15.8333 5.58646C16.5952 5.12938 17.1734 4.4155 17.4508 3.56667C16.7365 3.98958 15.9534 4.29454 15.125 4.46083C14.4562 3.74083 13.4912 3.29167 12.4167 3.29167C10.3583 3.29167 8.69167 4.93333 8.69167 6.98333C8.69167 7.275 8.725 7.55833 8.78333 7.825C5.39167 7.675 2.35833 6.05 0.333333 3.625C0.0166667 4.175 -0.166667 4.81667 -0.166667 5.5C-0.166667 6.78333 0.483333 7.91667 1.48333 8.58333C0.891667 8.56667 0.333333 8.4 0.833333 8.24167V8.28333C0.833333 10.0583 2.08333 11.5333 3.73333 11.875C3.425 11.9667 3.09167 12.0167 2.75 12.0167C2.50833 12.0167 2.275 11.9917 2.04167 11.9417C2.51667 13.3917 3.875 14.4583 5.50833 14.4917C4.225 15.475 2.61667 16.0583 0.883333 16.0583C0.583333 16.0583 0.291667 16.0417 0 16.0083C1.65 17.0583 3.58333 17.6667 5.66667 17.6667C12.4167 17.6667 16.125 12.0833 16.125 7.25833C16.125 7.1 16.125 6.94167 16.1167 6.78333C16.8333 6.275 17.4583 5.65833 17.9442 5.00138Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="order.html">Order Online</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h4>Hours</h4>
+                    <ul>
+                        <li><span>Monday — Friday</span><span>6:00 AM — 7:00 PM</span></li>
+                        <li><span>Saturday</span><span>7:00 AM — 8:00 PM</span></li>
+                        <li><span>Sunday</span><span>8:00 AM — 5:00 PM</span></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2Z" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="9" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            142 Roast Street, Portland, OR 97201
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.92V19.92C22 20.4839 21.7893 21.0251 21.4142 21.4251C21.0391 21.8251 20.5304 22.05 20 22.05C16.5 22.05 13.18 20.82 10.49 18.75C7.97 16.81 5.92 14.3 4.59 11.4C3.39 8.78 3.39 5.89 3.39 5.89C3.39 5.32 3.59 4.78 3.96 4.38C4.33 3.98 4.84 3.75 5.37 3.75H8.37C9.34 3.75 10.17 4.49 10.28 5.45C10.38 6.28 10.59 7.09 10.91 7.85L9.25 9.5C10.5 12.1 12.6 14.2 15.2 15.45L16.85 13.79C17.61 14.11 18.42 14.32 19.25 14.42C20.21 14.53 20.95 15.36 20.95 16.33L22 16.92Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            (503) 555-BREW
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="4" width="20" height="16" rx="3" stroke="currentColor" stroke-width="2"/>
+                                <path d="M2 7L12 13L22 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            hello@thedailygrind.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Daily Grind. All rights reserved. Crafted with love in Portland, OR.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <img src="" alt="Gallery image enlarged" class="lightbox-image">
+        <button class="lightbox-prev" aria-label="Previous image">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <button class="lightbox-next" aria-label="Next image">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
